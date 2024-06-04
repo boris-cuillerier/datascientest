@@ -1,0 +1,26 @@
+2024/06/04 08:18:22 [error] 7807#7807: *4 open() "/var/www/evalbob/favicon.ico" failed (2: No such file or directory), client: 78.192.244.59, server: eval.bob-datascientest.dns-dynamic.net, request: "GET /favicon.ico HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net", referrer: "http://eval.bob-datascientest.dns-dynamic.net/"
+2024/06/04 08:41:50 [error] 7807#7807: *6 open() "/var/www/evalbob/images/logo.blu.png" failed (2: No such file or directory), client: 45.156.129.57, server: eval.bob-datascientest.dns-dynamic.net, request: "GET /images/logo.blu.png HTTP/1.1", host: "54.246.11.19"
+2024/06/04 09:16:14 [error] 26981#26981: *1 open() "/var/www/html/icons/ubuntu-logo.png" failed (2: No such file or directory), client: 78.192.244.59, server: eval.bob-datascientest.dns-dynamic.net, request: "GET /icons/ubuntu-logo.png HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net", referrer: "http://eval.bob-datascientest.dns-dynamic.net/"
+2024/06/04 09:17:01 [error] 26981#26981: *1 open() "/var/www/html/icons/ubuntu-logo.png" failed (2: No such file or directory), client: 78.192.244.59, server: eval.bob-datascientest.dns-dynamic.net, request: "GET /icons/ubuntu-logo.png HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net", referrer: "http://eval.bob-datascientest.dns-dynamic.net/"
+2024/06/04 09:34:02 [error] 27027#27027: *4 directory index of "/var/www/html/" is forbidden, client: 78.192.244.59, server: _, request: "GET / HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net"
+2024/06/04 09:38:50 [warn] 27046#27046: server name "http://eval.bob-datascientest.dns-dynamic.net/" has suspicious symbols in /etc/nginx/conf.d/wordpress.conf:6
+2024/06/04 09:38:50 [warn] 27047#27047: server name "http://eval.bob-datascientest.dns-dynamic.net/" has suspicious symbols in /etc/nginx/conf.d/wordpress.conf:6
+2024/06/04 09:43:57 [error] 27050#27050: *4 directory index of "/var/www/html/" is forbidden, client: 78.192.244.59, server: _, request: "GET / HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net"
+2024/06/04 09:58:28 [error] 27050#27050: *5 directory index of "/var/www/html/" is forbidden, client: 78.192.244.59, server: _, request: "GET / HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net"
+2024/06/04 09:58:30 [error] 27050#27050: *5 directory index of "/var/www/html/" is forbidden, client: 78.192.244.59, server: _, request: "GET / HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net"
+2024/06/04 10:02:00 [warn] 30409#30409: server name "http://eval.bob-datascientest.dns-dynamic.net/" has suspicious symbols in /etc/nginx/conf.d/wordpress.conf:5
+2024/06/04 10:02:00 [warn] 30410#30410: server name "http://eval.bob-datascientest.dns-dynamic.net/" has suspicious symbols in /etc/nginx/conf.d/wordpress.conf:5
+2024/06/04 10:02:09 [error] 30413#30413: *1 directory index of "/var/www/html/" is forbidden, client: 78.192.244.59, server: _, request: "GET / HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net"
+2024/06/04 10:02:11 [error] 30413#30413: *1 directory index of "/var/www/html/" is forbidden, client: 78.192.244.59, server: _, request: "GET / HTTP/1.1", host: "eval.bob-datascientest.dns-dynamic.net"
+2024/06/04 10:03:00 [crit] 30424#30424: *1 connect() to unix:/var/run/php/php7.4-fpm.sock failed (2: No such file or directory) while connecting to upstream, client: 78.192.244.59, server: eval.bob-datascientest.dns-dynamic.net, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php7.4-fpm.sock:", host: "eval.bob-datascientest.dns-dynamic.net"
+2024/06/04 10:23:00 [error] 30453#30453: *56 directory index of "/var/www/html/" is forbidden, client: 176.120.220.194, server: _, request: "GET / HTTP/1.1", host: "54.246.11.19:80"
+2024/06/04 10:23:36 [error] 30453#30453: *68 directory index of "/var/www/html/" is forbidden, client: 43.157.33.199, server: _, request: "GET / HTTP/1.1", host: "54.246.11.19"
+2024/06/04 10:39:49 [notice] 31105#31105: signal process started
+2024/06/04 10:39:52 [notice] 31108#31108: signal process started
+2024/06/04 10:39:55 [notice] 31111#31111: signal process started
+2024/06/04 10:40:27 [notice] 31114#31114: signal process started
+2024/06/04 11:38:07 [crit] 31115#31115: *322 SSL_do_handshake() failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share) while SSL handshaking, client: 212.102.40.218, server: 0.0.0.0:443
+2024/06/04 11:41:54 [crit] 31115#31115: *332 SSL_do_handshake() failed (SSL: error:141CF06C:SSL routines:tls_parse_ctos_key_share:bad key share) while SSL handshaking, client: 212.102.40.218, server: 0.0.0.0:443
+2024/06/04 12:32:05 [error] 31115#31115: *348 directory index of "/var/www/html/" is forbidden, client: 60.191.125.35, server: _, request: "HEAD http://112.124.42.80:63435/ HTTP/1.1", host: "112.124.42.80:63435"
+2024/06/04 13:35:33 [error] 31115#31115: *351 directory index of "/var/www/html/" is forbidden, client: 79.0.141.244, server: _, request: "GET / HTTP/1.0", host: "54.246.11.19"
+2024/06/04 14:38:21 [error] 31115#31115: *418 directory index of "/var/www/html/" is forbidden, client: 185.254.196.173, server: _, request: "POST / HTTP/1.1", host: "54.246.11.19"
