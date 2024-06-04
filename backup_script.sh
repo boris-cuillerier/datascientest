@@ -1,4 +1,6 @@
 #!/bin/bash
+
+# Associated cron job: @midnight /home/vagrant/datascientest/backup_script.sh
 rsync -av -e ssh --progress sysadmin/exam1/wordpress_backup.sql ubuntu@54.246.11.19:/home/ubuntu/datascientest2/
 rsync -av -e ssh --progress /etc/nginx/nginx.conf ubuntu@54.246.11.19:/home/ubuntu/datascientest2/
 rsync -av -e ssh --progress /etc/nginx/conf.d/wordpress.conf ubuntu@54.246.11.19:/home/ubuntu/datascientest2/
